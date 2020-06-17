@@ -7,17 +7,71 @@
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
 </head>
 <body>
-    <form">
-        <div class="form-row">
-            <div class="col form-gruop">
-                <label for="first">Primeiro Nome:</label>
-                <input type="text" id="first">
+    <div class="container">
+
+        <form">
+            <div class="form-row">
+                <div class="col form-gruop">
+                    <label for="first">Primeiro Nome:</label>
+                    <input type="text" id="first" class="form-control">
+                </div>
+                <div class="col form-gruop">
+                    <label for="last">Último Nome:</label>
+                    <input type="text" id="last" class="form-control">
+                </div> 
             </div>
-            <div class="col form-gruop">
-                
+
+            <hr>
+            
+            <div class="form-row">
+                <div class="col-sm3 form-gruop">
+                    <label for="zipcode">CEP:</label>
+                    <input type="text" id="zipcode" class="form-control">
+                </div>
+
             </div>
-        </div>
-    </form>
+            <div class="form-row">
+                <div class="col-sm-9 form-grupo ">
+                    <label for="address">Endereço:</label>
+                    <input type="text" id="address" class="form-control">
+                </div>
+                <div class="col-sm-3 form-grupo ">
+                    <label for="number">Número:</label>
+                    <input type="number" id="number" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="col-sm-6 form-gruop">
+                    <label for="complemento">Número:</label>
+                    <input type="text" id="complemento" class="form-control">
+                </div>
+                <div class="col-sm-6 form-gruop">
+                    <label for="bairro">Bairro:</label>
+                    <input type="text" id="bairro" class="form-control">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col-6 col-sm-4 form-gruop">
+                    <label for="cidade">Cidade:</label>
+                    <input type="text" id="cidade" class="form-control">
+                </div>
+                <div class="col-6 col-sm-4 form-gruop">
+                    <label for="estado">Estado:</label>
+                    <input type="text" id="estado" class="form-control">
+                </div>
+                <div class="col-6 col-sm-4 form-gruop">
+                    <label for="pais">País:</label>
+                    <input type="text" id="pais" class="form-control">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <button type="submit" class="btn btn-primary btn-block mt-4">Enviar</button>
+            </div>
+        </form>
+
+    </div>
     <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
 </html>
