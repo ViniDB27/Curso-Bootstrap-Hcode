@@ -1,0 +1,24 @@
+{
+  "name": "Curso-Bootstrap-Hcode",
+  "version": "1.0.0",
+  "description": "Arquivos do Curso Bootstrap da Hcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViniDB27/Curso-Bootstrap-Hcode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViniDB27/Curso-Bootstrap-Hcode/issues"
+  },
+  "homepage": "https://github.com/ViniDB27/Curso-Bootstrap-Hcode#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1"
+  }
+}
