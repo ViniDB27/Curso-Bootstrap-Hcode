@@ -4,6 +4,7 @@ body, .bg-dark{
 
 .navbar{
     position: relative;
+    z-index: 1000;
 }
 .navbar .form-control{
     background-color: #1b1b1b !important;
@@ -32,9 +33,16 @@ body, .bg-dark{
     background-color: #1b1b1b;
     position: absolute;
     top:60px;
-    left: 0;
+    left: -250px;
     height: calc(100vh - 60px);
     overflow: auto;
+    transition: all 0.1s ease-out;
+    opacity: .5;
+}
+
+.sidebar-open ul{
+    left: 0px;
+    opacity: 1;
 }
 
 .navbar ul li{
@@ -48,4 +56,47 @@ body, .bg-dark{
 
 .media-avatar{
     height: 38px !important;
+}
+
+.backdrop{
+    background-color: rgba(0,0,0,.4);
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999;
+}
+
+.full-banner{
+    background-image: url(../img/full-banner.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    min-height: 120px;
+}
+
+.full-banner small{
+    columns: #999898;
+}
+
+.full-banner .btn-primary{
+    background-color: #e30f19;
+    border-radius: 0;
+    border: none;
+    min-width: 100px;
+}
+
+.full-banner .btn-primary:hover{
+    background-color: #bd0b14 !important;
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.list-titles h2{
+    color: #999898;
+}
+
+.list-titles img{
+    min-width: 160px;
 }
