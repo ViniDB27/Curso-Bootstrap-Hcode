@@ -93,10 +93,32 @@ body, .bg-dark{
     border: none !important;
 }
 
-.list-titles h2{
+.list-titles h2, footer{
     color: #999898;
 }
 
 .list-titles img{
     min-width: 160px;
+}
+
+@media(min-width: 576px){
+    .full-banner{
+        min-height: 256px;
+
+    }
+    .navbar .form-control{
+        max-width: 180px;
+    }
+}
+
+@media(min-width: 768){
+    
+}
+
+@media(min-width: 992){
+    
+}
+
+@media(min-width: 1200){
+    
 }
