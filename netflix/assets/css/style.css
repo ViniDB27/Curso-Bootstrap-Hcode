@@ -112,11 +112,25 @@ body, .bg-dark{
 }
 
 @media(min-width: 768){
-    
+    .list-titles img{
+        min-width: 230px;
+    }
 }
 
 @media(min-width: 992){
-    
+    .navbar .bg-dark {
+        background-color: transparent !important;
+        background-image: url('../img/header_gradient.png');
+        background-repeat: repeat-x;
+    }
+    .full-banner{
+        min-height: 50vh;
+    }
+
+    .full-banner p{
+        color: #999898;
+        max-width: 50vh;
+    }
 }
 
 @media(min-width: 1200){
